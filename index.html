@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Navbar</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome Free Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="./img/figma.png" alt="Logo" width="30">
+            </a>
+
+            <!-- Toggle button for mobile view -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links and buttons aligned on the right side -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Solutions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Community</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+
+                <!-- Right side buttons -->
+                <div class="d-flex align-items-center" id="buttons">
+                    <a class="btn btn-outline-dark me-2" href="#">Sign In</a>
+                    <a class="btn btn-dark" href="#">Register</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero section -->
+
+    <section class="hero">
+        <div class="hero-background">
+            <!-- <img src="#" alt=""> -->
+        </div>
+        <div class="hero-content">
+            <h1 class="title">Title</h1>
+            <p class="subtitle">Subtitle</p>
+            <div class="d-flex align-items-center" id="buttons">
+                <a class="btn btn-outline-dark me-2" href="#">Button</a>
+                <a class="btn btn-dark" href="#">Button</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- side by side image  -->
+
+    <section class="image-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://via.placeholder.com/600x400" class="img-fluid custom-img" alt="Image 1">
+                </div>
+                <div class="col-md-6">
+                    <img src="https://via.placeholder.com/600x400" class="img-fluid custom-img" alt="Image 2">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- cards section -->
+
+    <div class="container mt-5">
+        <h2 class="mb-3">Heading</h2>
+        <h6 class="mb-5 text-muted">Subheading</h6>
+
+        <div class="card mb-3">
+            <div class="card-body">
+                <div class="card-img-placeholder">
+                    <i class="bi bi-image" style="font-size: 50px;"></i>
+                </div>
+                <div class="card-content">
+                    <h5 class="card-title">Title</h5>
+                    <p class="card-text">Body text for whatever you'd like to say. Add main takeaway points, quotes,
+                        anecdotes, or even a very very short story.</p>
+                    <a href="#" class="btn btn-outline-primary">Button</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3">
+            <div class="card-body">
+                <div class="card-img-placeholder">
+                    <i class="bi bi-image" style="font-size: 50px;"></i>
+                </div>
+                <div class="card-content">
+                    <h5 class="card-title">Title</h5>
+                    <p class="card-text">Body text for whatever you'd like to say. Add main takeaway points, quotes,
+                        anecdotes, or even a very very short story.</p>
+                    <a href="#" class="btn btn-outline-primary">Button</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3">
+            <div class="card-body">
+                <div class="card-img-placeholder">
+                    <i class="bi bi-image" style="font-size: 50px;"></i>
+                </div>
+                <div class="card-content">
+                    <h5 class="card-title">Title</h5>
+                    <p class="card-text">Body text for whatever you'd like to say. Add main takeaway points, quotes,
+                        anecdotes, or even a very very short story.</p>
+                    <a href="#" class="btn btn-outline-primary">Button</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- other cards -->
+    <div class="container mt-5">
+        <!-- Heading -->
+        <div class="text-left mb-4">
+            <h2 class="fw-bold">Heading</h2>
+            <h6 class="text-muted">Subheading</h6>
+        </div>
+
+        <!-- Card Section -->
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="custom-card">
+                    <div class="card-image">
+                        <img src="https://via.placeholder.com/100" alt="Placeholder">
+                    </div>
+                    <h5 class="card-title">Title</h5>
+                    <p>Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a
+                        very very short story.</p>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="custom-card">
+                    <div class="card-image">
+                        <img src="https://via.placeholder.com/100" alt="Placeholder">
+                    </div>
+                    <h5 class="card-title">Title</h5>
+                    <p>Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a
+                        very very short story.</p>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="custom-card">
+                    <div class="card-image">
+                        <img src="https://via.placeholder.com/100" alt="Placeholder">
+                    </div>
+                    <h5 class="card-title">Title</h5>
+                    <p>Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a
+                        very very short story.</p>
+                </div>
+            </div>
+
+        </div>
+        <!-- Card Section -->
+        <div class="row mt-5">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="custom-card">
+                    <div class="card-image">
+                        <img src="https://via.placeholder.com/100" alt="Placeholder">
+                    </div>
+                    <h5 class="card-title">Title</h5>
+                    <p>Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a
+                        very very short story.</p>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="custom-card">
+                    <div class="card-image">
+                        <img src="https://via.placeholder.com/100" alt="Placeholder">
+                    </div>
+                    <h5 class="card-title">Title</h5>
+                    <p>Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a
+                        very very short story.</p>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="custom-card">
+                    <div class="card-image">
+                        <img src="https://via.placeholder.com/100" alt="Placeholder">
+                    </div>
+                    <h5 class="card-title">Title</h5>
+                    <p>Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a
+                        very very short story.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer section -->
+
+    <footer class="footer mt-5 py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="./img/figma.png" alt="Logo" width="25">
+                    <div class="social-icons mt-3">
+                        <a href="#" class="text-dark me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-dark me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-dark me-3"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="text-dark"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="fw-bold">Use cases</h6>
+                    <ul class="list-unstyled">
+                        <li>UI design</li>
+                        <li>UX design</li>
+                        <li>Wireframing</li>
+                        <li>Diagramming</li>
+                        <li>Brainstorming</li>
+                        <li>Online whiteboard</li>
+                        <li>Team collaboration</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="fw-bold">Explore</h6>
+                    <ul class="list-unstyled">
+                        <li>Design</li>
+                        <li>Prototyping</li>
+                        <li>Development features</li>
+                        <li>Design systems</li>
+                        <li>Collaboration features</li>
+                        <li>Design process</li>
+                        <li>FigJam</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="fw-bold">Resources</h6>
+                    <ul class="list-unstyled">
+                        <li>Blog</li>
+                        <li>Best practices</li>
+                        <li>Colors</li>
+                        <li>Color wheel</li>
+                        <li>Support</li>
+                        <li>Developers</li>
+                        <li>Resource library</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
